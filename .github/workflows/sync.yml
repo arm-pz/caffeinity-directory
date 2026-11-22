@@ -1,0 +1,31 @@
+name: sync
+# Rebuild plugin/ from caffeinity-skills every hour; commit only when it changed.
+on:
+  schedule: [{cron: "23 * * * *"}]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/**, .github/workflows/**]
+permissions:
+  contents: write
+concurrency: sync
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: {repository: arm-pz/caffeinity-skills, path: src}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install pyyaml==6.0.3
+      - run: python scripts/test_build.py
+      - run: python scripts/build.py src/plugins/caffeinity
+      - name: commit if it changed
+        run: |
+          git add -A plugin EXCLUDED.md
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync from caffeinity-skills $(git -C src rev-parse --short HEAD)"
+          git push

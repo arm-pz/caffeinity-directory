@@ -1,0 +1,25 @@
+{
+  "name": "caffeinity",
+  "displayName": "Caffeinity skills",
+  "version": "1.20261122.1259",
+  "description": "33 plain-Markdown agent skills: writing and content, search visibility, release checks, research and decisions, careers, outbound and learning. No scripts, no installs, no network calls.",
+  "author": {
+    "name": "Abdul Rahman P Z",
+    "url": "https://github.com/arm-pz"
+  },
+  "homepage": "https://skillsmith.tech/",
+  "repository": "https://github.com/arm-pz/caffeinity-directory",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "writing",
+    "seo",
+    "search-visibility",
+    "release-checks",
+    "research",
+    "career"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://skillsmith.tech/",
+  "supportUrl": "https://github.com/arm-pz/caffeinity-directory/issues"
+}
