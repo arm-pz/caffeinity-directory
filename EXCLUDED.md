@@ -69,6 +69,13 @@ Fix each at its source repo (arm-pz/<skill>); the hourly sync adds it once every
 ## paper-trail
 - ships a .py file (scripts/check_pages.py)
 
+## plugin-directory-gate
+- credential from the environment (references/rules.md:71)
+- install or launcher command (discovery-kit.md:51)
+- install or launcher command (references/rules.md:64)
+- ships a .py file (scripts/screen.py)
+- ships a .py file (scripts/test_screen.py)
+
 ## portable-harness
 - install or launcher command (references/guardrails.md:11)
 - install or launcher command (references/guardrails.md:13)
