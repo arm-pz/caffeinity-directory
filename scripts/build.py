@@ -115,6 +115,14 @@ its own page, source repo and trigger tests at [skillsmith.tech](https://skillsm
 
 {rows}
 
+## Privacy
+
+This plugin collects, stores and sends no data. It contains only Markdown instructions: no
+scripts, hooks or MCP servers, no network calls, no credentials and no third-party services. The
+skills work only on what you give Claude in your conversation, which Claude handles under its own
+terms; the plugin adds no data flow of its own. Questions:
+[open an issue](https://github.com/arm-pz/caffeinity-directory/issues).
+
 ## License
 
 MIT. See LICENSE.
