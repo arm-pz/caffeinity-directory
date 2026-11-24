@@ -1,6 +1,6 @@
 # Caffeinity skills (directory edition)
 
-33 agent skills for Claude Code by Abdul Rahman P Z: writing and content, search
+34 agent skills for Claude Code by Abdul Rahman P Z: writing and content, search
 visibility, release checks, research and decisions, careers, outbound and learning. Every skill
 is plain Markdown. Nothing in this plugin runs code, installs packages, sends data anywhere or
 reads credentials: each skill is instructions and reference notes that Claude reads when the
@@ -13,6 +13,7 @@ its own page, source repo and trigger tests at [skillsmith.tech](https://skillsm
 
 ## Skills
 
+- **address-findings**: Fixes the CRITICAL and HIGH findings in a consistent-code-review report for one pull request, staying inside the files that PR already changes, then reports each finding as fixed, won't fix (with evidence) or escalate.
 - **ai-team-blueprint**: Guide a solo operator or small business from "I want an AI team" to a ready-to-run v1 blueprint for a team of 3 to 5 Claude agents.
 - **career-track**: Career positioning and the moves around it: personal brand and function-level visibility, promotion and performance-review narratives, executive presence, salary negotiation scripts, career pivots, networking that reaches opportunities before they are posted, interview preparation for the rooms you are already in, and a plan with immediate actions and ninety-day milestones.
 - **check-skill-visibility**: Diagnose why individual agent skill pages are missing from Google Search even when their catalog or homepage appears.

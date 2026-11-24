@@ -1,8 +1,8 @@
 {
   "name": "caffeinity",
   "displayName": "Caffeinity skills",
-  "version": "1.20261122.1337",
-  "description": "33 plain-Markdown agent skills: writing and content, search visibility, release checks, research and decisions, careers, outbound and learning. No scripts, no installs, no network calls.",
+  "version": "1.20261124.1859",
+  "description": "34 plain-Markdown agent skills: writing and content, search visibility, release checks, research and decisions, careers, outbound and learning. No scripts, no installs, no network calls.",
   "author": {
     "name": "Abdul Rahman P Z",
     "url": "https://github.com/arm-pz"

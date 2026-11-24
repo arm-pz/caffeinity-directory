@@ -177,6 +177,12 @@ Fix each at its source repo (arm-pz/<skill>); the hourly sync adds it once every
 - install or launcher command (references/verification.md:9)
 - ships a .mjs file (scripts/replay-prompt.mjs)
 
+## skill-eval-suite
+- ships a .py file (scripts/ablation.py)
+- ships a .py file (scripts/intake.py)
+- ships a .py file (scripts/score.py)
+- ships a .py file (scripts/traces.py)
+
 ## skill-to-mod
 - ships a .py file (scripts/_common.py)
 - ships a .py file (scripts/check_skill.py)
