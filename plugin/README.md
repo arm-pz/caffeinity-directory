@@ -1,6 +1,6 @@
 # Caffeinity skills (directory edition)
 
-34 agent skills for Claude Code by Abdul Rahman P Z: writing and content, search
+35 agent skills for Claude Code by Abdul Rahman P Z: writing and content, search
 visibility, release checks, research and decisions, careers, outbound and learning. Every skill
 is plain Markdown. Nothing in this plugin runs code, installs packages, sends data anywhere or
 reads credentials: each skill is instructions and reference notes that Claude reads when the
@@ -36,6 +36,7 @@ its own page, source repo and trigger tests at [skillsmith.tech](https://skillsm
 - **research-brief**: Decision-grade research: topic overviews, competitor and industry analysis, literature reviews, fact checks with conflicting sources flagged, synthesis of expert positions, trend scans, due diligence on a partner or investment, interpretation of numbers found in public sources and one-page executive briefs, with every claim tied to a dated source read in the session and unknowns named instead of filled in.
 - **sales-copy**: Direct-response conversion assets: long-form sales pages, launch and abandoned-cart email sequences, Facebook, Google and LinkedIn ad variations, landing pages, product descriptions, video sales letter and webinar scripts, upsell flows and testimonial frameworks, each with headline, subheadline, body and call to action, built from the product, the buyer, their awareness level and the conversion goal.
 - **seo-polish**: Audit SEO health with seo-crawl (and seo-audit when installed), then generate optimized alternatives with Wordsmith.
+- **setup-claude-advisor**: Configure persistent advisor and subagent model tiers in Claude Code or local Codex.
 - **skill-estate**: Takes a whole collection of agent skill repos from scattered to published, consistent and self-maintaining, in gated phases: inventory every repo, reconcile site, marketplace and README listings, test and tune the family, close workflow gaps, wire publishing so new skill repos go live on their own, bundle a plugin with agents, add trigger tests and directory listings, and leave a maintenance loop and a map.
 - **skill-launch**: Launch a new skill end-to-end.
 - **solo-income-blueprint**: Design a realistic one-person online income plan from the user's skills, time and budget: one recommended business model, one offer, a demand check, a content and sales path, automations, a minimal tool stack, and a 7-day launch plan.

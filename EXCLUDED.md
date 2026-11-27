@@ -14,11 +14,6 @@ Fix each at its source repo (arm-pz/<skill>); the hourly sync adds it once every
 - install or launcher command (references/siblings.md:38)
 - install or launcher command (references/siblings.md:39)
 
-## caffeinity-routing
-- install or launcher command (references/workflows.md:12)
-- install or launcher command (references/workflows.md:14)
-- ships a .py file (scripts/route_check.py)
-
 ## cold-email-ops
 - ships a .py file (scripts/cold_email_math.py)
 
@@ -61,9 +56,6 @@ Fix each at its source repo (arm-pz/<skill>); the hourly sync adds it once every
 - ships a .py file (scripts/extract_insights.py)
 
 ## opus-playbook
-- install or launcher command (discovery-kit.md:114)
-- install or launcher command (discovery-kit.md:135)
-- install or launcher command (discovery-kit.md:88)
 - ships a .py file (scripts/worker_diff.py)
 
 ## paper-trail
@@ -71,7 +63,6 @@ Fix each at its source repo (arm-pz/<skill>); the hourly sync adds it once every
 
 ## plugin-directory-gate
 - credential from the environment (references/rules.md:71)
-- install or launcher command (discovery-kit.md:51)
 - install or launcher command (references/rules.md:64)
 - ships a .py file (scripts/screen.py)
 - ships a .py file (scripts/test_screen.py)
@@ -158,22 +149,10 @@ Fix each at its source repo (arm-pz/<skill>); the hourly sync adds it once every
 ## session-retrace
 - ships a .py file (scripts/session_retrace.py)
 
-## setup-claude-advisor
-- install or launcher command (discovery-kit.md:133)
-- install or launcher command (discovery-kit.md:176)
-- install or launcher command (discovery-kit.md:72)
-
 ## ship-second-brain
 - ships a .py file (scripts/check_vault.py)
 
 ## site-prompt
-- install or launcher command (discovery-kit.md:100)
-- install or launcher command (discovery-kit.md:113)
-- install or launcher command (discovery-kit.md:148)
-- install or launcher command (discovery-kit.md:20)
-- install or launcher command (discovery-kit.md:71)
-- install or launcher command (discovery/site-page.md:26)
-- install or launcher command (discovery/site-page.md:6)
 - install or launcher command (references/verification.md:9)
 - ships a .mjs file (scripts/replay-prompt.mjs)
 
@@ -206,3 +185,8 @@ Fix each at its source repo (arm-pz/<skill>); the hourly sync adds it once every
 ## upstream-check
 - ships a .mjs file (scripts/drift_check.mjs)
 - ships a .mjs file (scripts/upstream_check.mjs)
+
+## workflow-router
+- install or launcher command (references/workflows.md:12)
+- install or launcher command (references/workflows.md:14)
+- ships a .py file (scripts/route_check.py)

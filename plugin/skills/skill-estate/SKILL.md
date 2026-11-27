@@ -1,6 +1,6 @@
 ---
 name: skill-estate
-description: "Takes a whole collection of agent skill repos from scattered to published, consistent and self-maintaining, in gated phases: inventory every repo, reconcile site, marketplace and README listings, test and tune the family, close workflow gaps, wire publishing so new skill repos go live on their own, bundle a plugin with agents, add trigger tests and directory listings, and leave a maintenance loop and a map. Each phase hands off to the skill that owns it and ends in PRs. Use when someone's skills site and GitHub disagree, wants all their skill repos audited or cleaned up, wants new skills to publish themselves, or wants that cleanup repeated on another org, even if they never say estate. Not for one skill (use tune-skill), one listing (use findable), the site pipeline alone (use publish-pipeline), or weekly upkeep (use caffeinity-routing's maintain-skills workflow)."
+description: "Takes a whole collection of agent skill repos from scattered to published, consistent and self-maintaining, in gated phases: inventory every repo, reconcile site, marketplace and README listings, test and tune the family, close workflow gaps, wire publishing so new skill repos go live on their own, bundle a plugin with agents, add trigger tests and directory listings, and leave a maintenance loop and a map. Each phase hands off to the skill that owns it and ends in PRs. Use when someone's skills site and GitHub disagree, wants all their skill repos audited or cleaned up, wants new skills to publish themselves, or wants that cleanup repeated on another org, even if they never say estate. Not for one skill (use tune-skill), one listing (use findable), the site pipeline alone (use publish-pipeline), or weekly upkeep (use workflow-router's maintain-skills workflow)."
 ---
 # skill-estate
 
@@ -44,7 +44,7 @@ when the earlier gate passed or the owner waived it.
    handoffs, run the cheapest real targets (the site itself is a good one). Owner: `tune-skill`,
    plus the check skills on the site (`web-preflight`, `seo-crawl`).
 4. **Close workflow gaps.** Map the workflows across skills; every handoff must land on a published
-   skill. Draft the missing ones. Owners: `caffeinity-routing` (the map), `draft-skill` (new skills).
+   skill. Draft the missing ones. Owners: `workflow-router` (the map), `draft-skill` (new skills).
 5. **Publish and bundle.** Hourly sync from GitHub to the site and profile README; a plugin that
    bundles every skill plus one agent per workflow, for Claude Code and Codex. Owner:
    `publish-pipeline`; the bundle builder pattern is in `references/phases.md`.
